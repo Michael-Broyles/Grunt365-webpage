@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Your Shopping Cart</title>
+    <meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="shopping_cart.css">
+	<link rel="stylesheet" type="text/css" href="../../grunt.css">
+	<script src="shopping_cart.js"></script>
+	<script src="../../grunt.js"></script>
+</head>
+<body>
+<center>
+		<input type="button" class="buttons" id="continue" value="Continue Shopping" onclick="home()">
+		
+		<table id="invoice">
+			<tr>
+				<th>Line Item</th>
+				<th>Item</th>
+				<th>Qty</th>
+				<th>Price</th>
+				<th>Sales Tax</th>
+				<th>Shipping</th>
+				<th>Total</th>
+			</tr>
+			<tr id="line_items">
+				<td class="invoice_style" id="line_num">1</td>
+				<td class="invoice_style" id="item_id">Woobie</td>
+				<td class="invoice_style" id="quantity">2</td>
+				<td class="invoice_style" id="price">$24.99</td>
+				<td class="invoice_style" id="sales_tax">$0.00</td>
+				<td class="invoice_style" id="shipping">$8.99</td>
+				<td class="invoice_style" id="total">$59.00</td>
+			</tr>
+		</table>
+        
+		<input type="button" class="buttons" id="check_out_button" value="Check Out" onclick="data_form()">
+</center>
+</body>
+</html>

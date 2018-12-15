@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Survival Gear</title>
+    <meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../../grunt.css">
+	<link rel="stylesheet" type="text/css" href="survival_gear.css">
+	<script src="survival_gear.js"></script>
+	<script src="../../grunt.js"></script>
+</head>
+    <body>
+    	<center>
+			
+			<h1>Survival Gear</h1>
+			<img src="../../images/logogrunt.png" id="survival_gear_logo">
+			
+			<input type="button" class="buttons" id="back" value="Back To Home Page" onclick="home()">
+			
+			<div class="product_backdrop">
+				
+		<select id="select_survival_gear" class="select_list" onchange="populate_survival_gear()">
+			<option value=""></option>
+			<option value="Woobie">Woobie</option>
+			<option value="Cord">550 Cord</option>
+			<option value="100mph">100mph Tape</option>
+			<option value="Pouches">Pouches</option>
+		</select>
+			
+			<img src="../../images/Gadsden.svg.png" id="survival_choice_image">
+				
+			</div>
+			
+		</center>
+    </body>
+</html>

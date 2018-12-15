@@ -1,0 +1,23 @@
+/*------------------SURVIVAL_GEAR.HTML-----------------------------------*/
+
+#select_survival_gear {
+	position: absolute;
+	top: 150px;
+	left: 600px;
+	width: 160px;
+}
+
+#survival_gear_logo {
+	position: absolute;
+	top: 10px;
+	left: 20px;
+}
+
+#survival_choice_image {
+	position: absolute;
+	top: 200px;
+	left: 500px;
+	height: 420px;
+	width: 360px;
+}
+

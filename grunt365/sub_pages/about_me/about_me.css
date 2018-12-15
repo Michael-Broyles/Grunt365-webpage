@@ -1,0 +1,138 @@
+
+#qualifications {
+	font-size: 18px;
+	font-family: stencil;
+	color: black;
+	text-shadow: 2px 2px 4px olivedrab;
+	list-style: none;
+}
+
+#about_me_backdrop {
+	margin-top: 10px;
+	background-color: dimgray;
+	height: 500px;
+	width: 880px;
+	border: 2px solid silver;
+	cursor: crosshair;
+	box-shadow: 0px 0px 60px 10px dimgray, 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#big_red_one_patch {
+	position: absolute;
+	top: 150px;
+	left: 280px;
+	height: 200px;
+	width: 140px;
+}
+
+#unit_crest {
+	position: absolute;
+	top: 400px;
+	left: 280px;
+	height: 200px;
+	width: 140px;
+}
+
+#cib {
+	position: absolute;
+	top: 160px;
+	right: 260px;
+	height: 60px;
+	width: 180px;
+}
+
+#profile_image_holder {
+	background-color: white;
+	position: absolute;
+	top: 260px;
+	left: 500px;
+	height: 340px;
+	width: 560px;
+	border: 4px double black;
+	background-image: url(../../images/us-flag.png);
+	background-size: cover;
+}
+
+/*-------------------------FLIP-3D-EFFECT--------PROFILE-IMAGE--------------------------------*/
+.flip3d {
+	height: 320px;
+	width: 360px;
+	margin: auto;
+	margin-left: 100px;
+	margin-top: 30px;
+	float: left;
+}
+
+.flip3d > .front {
+	position: absolute;
+	transform: perspective(600px)rotateY(0deg);
+	background-image: url(../../images/me.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 280px;
+	width: 360px;
+	border: 4px solid black;
+	backface-visibility: hidden;
+	transition: transform .5s linear 0s;
+}
+.flip3d:hover > .front {
+	transform: perspective(600px)rotateY(-180deg);
+}
+.flip3d:hover > .back {
+	transform: perspective(600px)rotateY(0deg);
+}
+
+.flip3d > .back {
+	margin-left: 50px;
+	position: absolute;
+	transform: perspective(600px)rotateY(180deg);
+	background-image: url(../../images/bird.png);
+	background-size: cover;
+	height: 280px;
+	width: 200px;
+	border: 4px solid black;
+	backface-visibility: hidden;
+	transition: transform .5s linear 0s;
+}
+
+/*------------------------LOGO-FLIP---------------------------------------*/
+#logo_flip {
+	position: absolute;
+	top: 0px;
+	left: 20px;
+	height: 200px;
+	width: 200px;
+	float: left;
+}
+
+#logo_flip > #front_logo {
+	position: absolute;
+	top: 10px;
+	transform: perspective(600px)rotateY(0deg);
+	background-image: url(../../images/LOGO.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 200px;
+	width: 200px;
+	backface-visibility: hidden;
+	transition: transform .5s linear 0s;
+}
+#logo_flip:hover > #front_logo {
+	transform: perspective(600px)rotateY(-180deg);
+}
+#logo_flip:hover > #back_logo {
+	transform: perspective(600px)rotateY(0deg);
+}
+
+#logo_flip > #back_logo {
+	position: absolute;
+	top: 20px;
+	transform: perspective(600px)rotateY(180deg);
+	background-image: url(../../images/logogrunt.png);
+	background-size: cover;
+	height: 180px;
+	width: 180px;
+	backface-visibility: hidden;
+	transition: transform .5s linear 0s;
+}
+

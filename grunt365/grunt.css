@@ -1,0 +1,92 @@
+
+body {
+	background-color: white;
+}
+
+#company_name {
+	position: absolute;
+	top: 100px;
+	left: 500px;
+	text-align: center;
+	font-family: stencil;
+	text-shadow: 2px 2px 4px black;
+	font-size: 60px;
+	color: white;
+	width: 330px;
+	height: 45px;
+}
+
+#motto {
+	position: absolute;
+	top: 582px;
+	left: 350px;
+	color: white;
+	font-family: stencil;
+	text-shadow: 2px 2px 4px black;
+	font-size: 28px;
+}
+
+.buttons {
+	font-size: 18px;
+	height: 34px;
+	width: 190px;
+	cursor: pointer;
+	background-image: url(images/ocp.png);
+	background-size: 900px;
+	font-family: stencil;
+	text-shadow: 2px 2px 4px white;
+	border: 2px solid black;
+}
+
+h1 {
+	text-align: center;
+	font-family: stencil;
+	text-shadow: 2px 2px 4px black;
+	font-size: 50px;
+	color: olivedrab;
+	width: 800px;
+	height: 60px;
+}
+
+#back {
+	position: absolute;
+	bottom: 10px;
+	left: 43%;
+}
+
+.buttons:hover {
+	color: white;
+	text-shadow: 2px 2px 4px black;
+}
+
+#logo {
+	height: 100px;
+	width: 100px;
+	cursor: crosshair;
+}
+
+#cover_image {
+	height: 520px;
+	width: 1100px;
+	border: 2px solid dimgray;
+	cursor: crosshair;
+	box-shadow: 0px 0px 60px 10px dimgray, 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.product_backdrop {
+	margin-top: 10px;
+	background-color: dimgray;
+	height: 500px;
+	width: 880px;
+	border: 2px solid silver;
+	box-shadow: 0px 0px 60px 10px dimgray, 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/*--SELECT-LIST-CLASS--*/
+.select_list {
+	font-family: stencil;
+	font-size: 20px;
+	border: 1px solid silver;
+	border-radius: 12px 12px 12px 12px;
+	cursor: pointer;
+}

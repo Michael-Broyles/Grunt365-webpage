@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Urban Gear</title>
+    <meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../../grunt.css">
+	<link rel="stylesheet" type="text/css" href="urban_gear.css">
+	<script src="../../grunt.js"></script>
+</head>
+    <body>
+    	<center>
+			
+			<h1>Urban Gear</h1>
+			<img src="../../images/logogrunt.png" id="urban_gear_logo">
+			
+			<input type="button" class="buttons" id="back" value="Back To Home Page" onclick="home()">
+			
+			<div class="product_backdrop">
+			
+			<h2 id="urban_list_title">Product List</h2>
+				
+		<select id="select_urban_gear" class="select_list" onchange="populate_urban_gear()">
+			<option value=""></option>
+			<option value="Hats">Hats</option>
+			<option value="Beanies">Beanies</option>
+			<option value="Shirts">Shirts</option>
+			<option value="Hoodies">Hoodies</option>
+		</select>
+				
+			<img src="../../images/Gadsden.svg.png" id="urban_choice_image">
+				
+			</div>
+			
+		</center>
+    </body>
+</html>

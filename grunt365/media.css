@@ -1,0 +1,92 @@
+
+/*-//-------------------------------------------------MEDIA-QUERRY-------------------------------------------------//*/
+/*//--------------------------------------------------MEDIA-QUERRY------------------------------------------------//*/
+@media screen and (max-width: 800px) {
+    body {
+        background-color: red;
+    }
+#company_name {
+	position: absolute;
+	top: 80px;
+	left: 240px;
+	text-align: center;
+	font-family: stencil;
+	text-shadow: 2px 2px 4px black;
+	font-size: 40px;
+	color: white;
+	width: 300px;
+	height: 60px;
+	}
+	#img {
+		height: 340px;
+		width: 600px;
+	}
+	#logo {
+	height: 82px;
+	width: 82px;
+	}
+	.buttons {
+	width: 160px;
+	font-size: 16px;
+	cursor: pointer;
+	background-image: url(images/ocp.png);
+	background-size: 300px;
+	font-family: stencil;
+	text-shadow: 2px 2px 4px white;
+	border: 1px solid black;
+	}
+	#motto {
+	position: absolute;
+	top: 400px;
+	left: 130px;
+	color: white;
+	font-family: stencil;
+	text-shadow: 2px 2px 4px black;
+	font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        background-color: pink;
+    }
+	#company_name {
+	position: absolute;
+	top: 65px;
+	left: 150px;
+	text-align: center;
+	font-family: stencil;
+	text-shadow: 2px 2px 4px black;
+	font-size: 16px;
+	color: white;
+	width: 90px;
+	height: 60px;
+	}
+	#img {
+		height: 140px;
+		width: 300px;
+	}
+	#logo {
+	height: 50px;
+	width: 50px;
+	}
+	.buttons {
+	width: 70px;
+	font-size: 7px;
+	cursor: pointer;
+	background-image: url(images/ocp.png);
+	background-size: 300px;
+	font-family: stencil;
+	text-shadow: 2px 2px 4px white;
+	border: 1px solid black;
+	}
+	#motto {
+	position: absolute;
+	top: 190px;
+	left: 85px;
+	color: white;
+	font-family: stencil;
+	text-shadow: 2px 2px 4px black;
+	font-size: 10px;
+	}
+}

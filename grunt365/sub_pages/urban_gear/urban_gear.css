@@ -1,0 +1,30 @@
+
+#urban_list_title {
+	position: absolute;
+	top: 120px;
+	left: 600px;
+	font-family: stencil;
+	color: olivedrab;
+	text-shadow: 2px 2px 6px black;
+}
+
+#select_urban_gear {
+	position: absolute;
+	top: 170px;
+	left: 595px;
+	width: 180px;
+}
+
+#urban_choice_image {
+	position: absolute;
+	top: 200px;
+	left: 500px;
+	height: 420px;
+	width: 360px;
+}
+
+#urban_gear_logo {
+	position: absolute;
+	top: 10px;
+	left: 20px;
+}
